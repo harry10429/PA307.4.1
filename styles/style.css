@@ -1,0 +1,42 @@
+body{
+    background-image: url("../03.webp");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.top{
+     display:grid;
+     
+     grid-template-columns: 250px 1fr 300px;
+     grid-template-rows: 220px 1fr;
+     background-image: url("../01.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     grid-column: 1/4;
+     height:320px;
+     border:1px solid hsl(180, 3%, 10%);
+}
+
+.Box2{
+margin-top: 20px;
+display: grid;
+grid-template-columns: 5fr 10px 2fr 2fr;
+grid-template-rows:1fr 1fr;
+background-image: url("../01.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+border: 1px solid hsl(180, 3%, 10%);
+height:850px;
+
+
+}
+
+
+.skills{
+    display:grid;
+    grid-template-rows: 3fr 2fr;
+}
